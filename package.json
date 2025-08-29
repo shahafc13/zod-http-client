@@ -2,6 +2,7 @@
   "name": "zod-http-client",
   "version": "1.0.0",
   "description": "A tiny, typed HTTP client using Zod for response validation.",
+  "url": "https://github.com/shahafc13/zod-http-client",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
