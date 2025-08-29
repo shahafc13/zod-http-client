@@ -20,7 +20,7 @@
   ],
   "sideEffects": false,
   "engines": {
-    "node": ">=21"
+    "node": ">=22"
   },
   "scripts": {
     "dev": "tsx watch src/index.ts",

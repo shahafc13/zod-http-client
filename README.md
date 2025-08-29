@@ -10,7 +10,7 @@ Installation
 
 Requirements
 
-- Node >=18 (global `fetch` available in Node 18+ and modern runtimes)
+- Node >=22 (global `fetch` available in Node 22+ and modern runtimes)
 - Peer dependency: `zod` (>=4 <5) must be installed in your project
 
 Quick Start
@@ -91,7 +91,7 @@ Notes
 
 CI
 
-- A GitHub Actions workflow is provided at `.github/workflows/ci.yml` which runs lint, build, and tests on Node 18 and 20.
+- A GitHub Actions workflow is provided at `.github/workflows/ci.yml` which runs lint, build, and tests on Node 22.
 - If your default branch is not `main` or `master`, update the branches in the workflow trigger.
 
 CD (npm publish)
@@ -105,7 +105,7 @@ CD (npm publish)
 
 Troubleshooting
 
-- Missing `fetch` in Node: ensure you are on Node >=18 or add the `undici` polyfill shown above.
+- Missing `fetch` in Node: ensure you are on Node >=22 or add the `undici` polyfill shown above.
 - Zod not found: install the peer dependency with `npm i zod` (requires `>=4 <5`).
 - ESM import errors: confirm your project uses ESM (`"type": "module"`) or configure your bundler accordingly.
 
