@@ -1,5 +1,10 @@
 # zod-http-client
 
+[![npm version](https://img.shields.io/npm/v/zod-http-client.svg)](https://www.npmjs.com/package/zod-http-client)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9%2B-blue)](https://www.typescriptlang.org/)
+[![Publish CI](https://github.com/shahafc13/zod-http-client/actions/workflows/publish.yml/badge.svg)](https://github.com/shahafc13/zod-http-client/actions/workflows/publish.yml)
+
 Simple, typed HTTP client that validates responses with Zod. ESM-only, ships TypeScript types.
 
 Installation
